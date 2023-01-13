@@ -1,0 +1,121 @@
+/* reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* general styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+}
+/* Navigation menu */
+header nav {
+    display: flex; /* display the menu items in a row */
+    align-items: center; /* center the menu items vertically */
+    justify-content: space-between; /* distribute the space between the menu items */
+}
+
+header nav ul {
+    display: flex; /* display the menu items in a row */
+    list-style: none; /* remove the bullet points */
+    margin: 0; /* remove the default margins */
+    padding: 0; /* remove the default padding */
+}
+
+header nav ul li {
+    margin-right: 1em; /* add some space between the menu items */
+}
+
+header nav ul li a {
+    color: #fff; /* set the text color to white */
+    text-decoration: none; /* remove the underline from the links */
+    font-size: 1.2em; /* increase the font size */
+    padding: 0.5em; /* add some padding to the menu items */
+    transition: background-color 0.2s ease-in-out; /* add a transition effect for the background color */
+}
+
+header nav ul li a:hover {
+    background-color: #555; /* change the background color on hover */
+    color: #f5f5f5; /* change the text color on hover */
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+section h2 {
+    margin-bottom: 0.5em;
+}
+
+section ul {
+    list-style: none;
+}
+
+section ul li {
+    margin-bottom: 1em;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+form {
+    margin-bottom: 2em;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    cursor: pointer;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+section h2 {
+    margin-bottom: 0.5em;
+}
+
+section ul {
+    list-style: none;
+}
+
+section ul li {
+    margin-bottom: 1em;
+    border: 1px solid #ccc; /* Add a border around each experience */
+    padding: 1em; /* Add some padding to separate the text from the border */
+    border-radius: 4px; /* Add rounded corners to the border */
+}
